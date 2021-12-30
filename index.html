@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏃Run Buddy</title>
+    <title>Run Buddy</title>
 
     <!-- imports -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -46,7 +46,41 @@
 
     <!-- hero/jumbotron -->
     <section>
-
+        <div>
+            <h3>Get Started Today!</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <!-- add form element -->
+            <form action="">
+                <!-- name info request -->
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <!-- email info request -->
+                <label for="email">Enter email address:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" />
+                <!-- phone info request -->
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <!-- question -->
+                <p>
+                    Have you worked out with a trainer before?
+                    <!-- yes radio -->
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <!-- no radio -->
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <!-- acknowledgement -->
+                <p>
+                    <!-- acknowledge checkbox -->
+                    <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                </p>
+                <button type="submit">
+                    Get running!
+                </button>
+            </form>
+        </div>
     </section>
 
     <!-- 'what we do' section -->
@@ -71,13 +105,9 @@
 
     <!-- footer -->
     <footer>
-        <h2>❤️ Made with love by Run Buddy</h2>
+        <h2>❤️ Made with love by Run Buddy.</h2>
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br/>
+            &copy; 2022 Run Buddy, INC.
+        </div>
     </footer>
-
-
-
-
-
-
-
-    What We Do What You Do Your
